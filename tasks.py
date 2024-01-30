@@ -28,17 +28,53 @@
 
 #  ДЕКОРАТОРИ - це функції які можна використовувати та перевиначати у інших функція
 
-def announce(f):
-    def wrapper():
-        print("About to run the function")
-        f()
-        print("Done with the function")
-    return wrapper
+# def announce(f):
+#     def wrapper():
+#         print("About to run the function")
+#         f()
+#         print("Done with the function")
+#     return wrapper
 
 
-@announce
-def hello():
-    print("Hello")
+# @announce
+# def hello():
+#     print("Hello")
 
 
-hello()
+# hello()
+
+
+# ЛЯМБДА ФУНКЦІ
+
+# import sys
+# persone = [
+#     {"name": "Ivan", "house": "yes"},
+#     {"name": "Oksana", "house": "no"},
+#     {"name": "Inna", "house": "yes"},
+#     {"name": "Anastasia", "house": "no"}
+# ]
+
+
+# def f(persone):
+#     return persone["house"]
+
+# теж саме тільки lamda - це вбудована функція в python, 1 приймає вхідне значення(persone:), настпунийм вихідне(persone["house"])
+
+# persone.sort(key=lambda persone: persone["house"])
+
+# # persone.sort(key=f)
+# print(persone)
+
+
+# try:
+#     x = int(input("x: "))
+#     y = int(input("y: "))
+# except ValueError:
+#     print("Invalid value")
+#     sys.exit(1)
+# try:
+#     result = x / y
+# except TypeError:
+#     print("Error: Cannot divide by 0 ")
+#     sys.exit(1)
+# print(result) 
