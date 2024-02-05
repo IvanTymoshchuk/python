@@ -73,12 +73,5 @@
 #  print(f"The square of {i} is {square(i)}")
 # та зробити імпорт : from functions - (це назва файлу) import  square , і підставити логіку яку ми забрали ( якщо потрібно імпортувати цілий файл то пишемо просто import functions)
 
-# zip() - об'єднує декілька в одне ( не важливо яких типів)
 
-# fruis = ["apple", "orange", "banana", "lime"]
-# quantatis = [100, 20, 50, 30]
-# available = (True, False, True, False)
-# fruit_zip = list(zip(fruis, quantatis, available))
-# print(
-#     fruit_zip
-# )  # [('apple', 100, True), ('orange', 20, False), ('banana', 50, True), ('lime', 30, False)]
+
