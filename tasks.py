@@ -105,27 +105,38 @@
 #     fruit_zip
 # )  # [('apple', 100, True), ('orange', 20, False), ('banana', 50, True), ('lime', 30, False)]
 
-# Глибоке та просте копіювання
+# ---------- Глибоке та просте копіювання
 
 # Приклад 1 : просте копіювання ( якщо в середені об'єкта є значення ключ якого мутабельний(наприклад список []) (див.прикл) тоді в такому разі це значення також буде змінюватися після копіювання)
 
-info = {"name": "Ivan", "at_home": True, "revievs": []}  # це значення яке можна змінити
+# info = {"name": "Ivan", "at_home": True, "revievs": []}  # це значення яке можна змінити
 
-info_copy = info.copy()
+# info_copy = info.copy()
 
-info_copy["reviews"].append("Not Work")
+# info_copy["reviews"].append("Not Work")
 
-print(info)
-print(info_copy)
+# print(info)
+# print(info_copy)
 
-# Приклад 2 : Глибоке копіювання ( якщо в середені об'єкта є значення ключ якого мутабельний (див.прикл) тоді в такому разі це значення не буде змінюватися після копіювання)
+# # Приклад 2 : Глибоке копіювання ( якщо в середені об'єкта є значення ключ якого мутабельний (див.прикл) тоді в такому разі це значення не буде змінюватися після копіювання)
 
-from copy import deepcopy
+# from copy import deepcopy
 
-info = {"name": "Ivan", "at_home": True, "reviews": []}  # це значення яке можна змінити
+# info = {"name": "Ivan", "at_home": True, "reviews": []}  # це значення яке можна змінити
 
-info_deppcopy = deepcopy(info)
-info_deppcopy["reviews"].append("Work")
+# info_deppcopy = deepcopy(info)
+# info_deppcopy["reviews"].append("Work")
 
-print(info)
-print(info_deppcopy)
+# print(info)
+# print(info_deppcopy)
+
+
+# -------------------
+
+
+def merge_lists_to_dict(list_one, list_two):
+    return dict(zip(list_one, list_two))
+
+
+res_one = merge_lists_to_dict(["a", "b", "c"], [True, 10, []])
+print(res_one)
