@@ -133,10 +133,22 @@
 
 # -------------------
 
+# def merge_lists_to_dict(list_one, list_two):
+#     return dict(zip(list_one, list_two))
 
-def merge_lists_to_dict(list_one, list_two):
-    return dict(zip(list_one, list_two))
+
+# res_one = merge_lists_to_dict(["a", "b", "c"], [True, 10, []])
+# print(res_one)
 
 
-res_one = merge_lists_to_dict(["a", "b", "c"], [True, 10, []])
-print(res_one)
+# ---------------
+#  *args - це довільної кількості аргументівʼ
+
+
+def sum_num(*args):
+    print(args)
+    print(type(args))
+    return sum(args)
+
+
+print(sum_num(1, 2, 3))
