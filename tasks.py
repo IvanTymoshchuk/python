@@ -142,13 +142,25 @@
 
 
 # ---------------
-#  *args - це довільної кількості аргументівʼ
+# #  *args - це довільної кількості аргументівʼ
 
 
-def sum_num(*args):
-    print(args)
-    print(type(args))
-    return sum(args)
+# def sum_num(*args):
+#     print(args)
+#     print(type(args))
+#     return sum(args)
 
 
-print(sum_num(1, 2, 3))
+# print(sum_num(1, 2, 3))
+
+#  --------------- 
+#* Позиційні аргументи (порядок важливий )
+
+
+# def get_posts_info(name, qtn):
+#     info = f"{name} wrote {qtn} posts"
+#     return info
+
+
+# info = get_posts_info("Ivan", 25)
+# print(info)
