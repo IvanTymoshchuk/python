@@ -233,3 +233,20 @@
 # post_with_weekday = create_new_post(initial_post)
 # print(post_with_weekday)
 # # {'id': 123, 'author': 'Ivan','created_on_weekday': 'Thursday'}
+
+# ---------------
+# * callback func
+
+# def print_num_inf(num):
+#     if (num % 2) == 0:
+#         print("Enter number is even")
+#     else:
+#         print("Enter number is odd")
+
+
+# def processs_num(num, callback_func):
+#     callback_func(num)
+
+
+# entred_num = int(input("Enter any number: "))
+# processs_num(entred_num, processs_num)
