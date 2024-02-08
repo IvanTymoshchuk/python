@@ -177,3 +177,15 @@
 
 # info = get_posts_info(name="Ivan", qtn=25)
 # print(info)
+
+
+# -------------------
+
+# def merge_lists_to_dict(list_one, list_two):
+#     return dict(zip(list_one, list_two))
+
+
+# res_one = merge_lists_to_dict(list_one=["a", "b", "c"], list_two=[True, 10, []])
+# res_two = merge_lists_to_dict(["abc"], list_two=[True, 10, []])
+# print(res_one)
+# print(res_two)
