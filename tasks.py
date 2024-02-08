@@ -209,3 +209,27 @@
 
 # res = update_car_info(brand="BMW", price=100000)
 # print(res)
+
+
+# ---------
+
+# from datetime import date
+
+
+# def get_weekday():
+#     return date.today().strftime("%A")
+
+
+# def create_new_post(post, weekday=get_weekday()):
+#     post_copy = post.copy()
+#     post_copy["created _on_weekday"] = weekday
+#     return post_copy
+
+
+# initial_post = {
+#     "id": 123,
+#     "author": "Ivan",
+# }
+# post_with_weekday = create_new_post(initial_post)
+# print(post_with_weekday)
+# # {'id': 123, 'author': 'Ivan','created_on_weekday': 'Thursday'}
