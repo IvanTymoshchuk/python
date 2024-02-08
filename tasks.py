@@ -26,7 +26,7 @@
 #         print(f"No available seat for {persone} ")
 
 
-#*  ДЕКОРАТОРИ - це функції які можна використовувати та перевиначати у інших функція
+# *  ДЕКОРАТОРИ - це функції які можна використовувати та перевиначати у інших функція
 
 # def announce(f):
 #     def wrapper():
@@ -44,7 +44,7 @@
 # hello()
 
 
-#* ЛЯМБДА ФУНКЦІ
+# * ЛЯМБДА ФУНКЦІ
 
 # import sys
 # persone = [
@@ -164,4 +164,16 @@
 
 
 # info = get_posts_info("Ivan", 25)
+# print(info)
+
+#  ---------------
+# *  Аргументи з ключовими словами  (порядок не важливий )
+
+
+# def get_posts_info(name, qtn):
+#     info = f"{name} wrote {qtn} posts"
+#     return info
+
+
+# info = get_posts_info(name="Ivan", qtn=25)
 # print(info)
