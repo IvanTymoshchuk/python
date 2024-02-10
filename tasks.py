@@ -225,7 +225,6 @@
 #     post_copy["created _on_weekday"] = weekday
 #     return post_copy
 
-
 # initial_post = {
 #     "id": 123,
 #     "author": "Ivan",
