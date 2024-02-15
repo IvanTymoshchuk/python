@@ -270,3 +270,16 @@
 
 # print(10 in set_one)
 # print("abcd" in set_one)
+
+
+# * -------------
+
+# my_list = [1, 2]
+
+# if len(my_list) > 0:
+#     print("It's okay")
+
+# #! Така ж сама функція (в пайтоні само приводить до порівнянь, тому не потрібно ускладнювати)
+
+# if my_list:
+#     print("It's better")
