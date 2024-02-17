@@ -321,13 +321,12 @@
 # * --------- Lambda func
 #! Потрібна задля того, щоб повернути в тілі функції іншу функцію ( у рарі якщо інша функція повертає тільки 1 вираз)
 
+# def greeting(greet):
+#     return lambda name: f"{greet}, {name}!"
 
-def greeting(greet):
-    return lambda name: f"{greet}, {name}!"
 
-
-morning_greeting = greeting("Good Morning")
-print(morning_greeting("Ivan"))
-# Good Morning, Ivan!
-evening_greeting = greeting("Good Evening")
-print(evening_greeting("Ivan"))
+# morning_greeting = greeting("Good Morning")
+# print(morning_greeting("Ivan"))
+# # Good Morning, Ivan!
+# evening_greeting = greeting("Good Evening")
+# print(evening_greeting("Ivan"))
