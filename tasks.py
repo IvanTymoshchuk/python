@@ -321,8 +321,17 @@
 # * --------- Lambda func
 #! Потрібна задля того, щоб повернути в тілі функції іншу функцію ( у рарі якщо інша функція повертає тільки 1 вираз)
 
+
 # def greeting(greet):
 #     return lambda name: f"{greet}, {name}!"
+
+#! Той самий результат тільки без lambda
+
+# def greeting(greet):
+#     def info(name):
+#         return f"{greet}, {name}!"
+
+#     return info
 
 
 # morning_greeting = greeting("Good Morning")
