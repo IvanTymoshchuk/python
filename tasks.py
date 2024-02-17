@@ -305,3 +305,14 @@
 # print(btn)
 # print(btn2)
 # print(new_btn)
+
+#! ---- Простіший спосіб обʼєднати 2 словаря (обʼкта) в 1 за допомогою |
+
+# btn = {"with": 200, "color": "grey"}
+# btn2 = {"height": 200}
+
+# new_btn = btn | btn2
+
+# print(btn)
+# print(btn2)
+# print(new_btn)
