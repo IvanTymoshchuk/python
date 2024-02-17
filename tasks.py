@@ -289,8 +289,19 @@
 
 #! Він розпаковує попередній обʼєкт та додає (або змінює якщо вже є вказане значення) у новий обʼєкт, таким чином не відбувається мутація а копія попереднього обʼєкта
 
-btn = {"with": 200, "color": "grey"}
-red_btn = {**btn, "color": "red"}
+# btn = {"with": 200, "color": "grey"}
+# red_btn = {**btn, "color": "red"}
 
-print(btn)
-print(red_btn)
+# print(btn)
+# print(red_btn)
+
+#! ---- Також можна обʼєднати 2 словаря (обʼкта) в 1 за допомогою **
+
+# btn = {"with": 200, "color": "grey"}
+# btn2 = {"height": 200}
+
+# new_btn = {**btn, **btn2}
+
+# print(btn)
+# print(btn2)
+# print(new_btn)
