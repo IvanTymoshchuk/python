@@ -135,4 +135,7 @@
 
 
 # # print(image_info({"image_title": "Welcome", "image_id": 777}))
-# print(image_info({"image_title": "Welcome"}))
+# try:
+#     print(image_info({"image_title": "Welcome"}))
+# except TypeError as e:
+#     print(e)
