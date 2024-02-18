@@ -339,3 +339,13 @@
 # # Good Morning, Ivan!
 # evening_greeting = greeting("Good Evening")
 # print(evening_greeting("Ivan"))
+
+
+# * ---------- обробка помилок
+
+# try:
+#     # print(10 / 0)
+#     print(10 / 2)
+# except ZeroDivisionError:
+#     print("Error - Division by zero!")
+# print("Continue")
