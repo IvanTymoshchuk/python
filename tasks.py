@@ -349,3 +349,10 @@
 # except ZeroDivisionError:
 #     print("Error - Division by zero!")
 # print("Continue")
+
+
+# * ------ або якщо ми не знаємо яка конкретно буде помилка то робимо так:
+# try:
+#     print(10 / 0)
+# except Exception as e:
+#     print(e)
