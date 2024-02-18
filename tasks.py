@@ -374,13 +374,23 @@
 # print("Continue...")
 
 
-#* ------------ Задача
+# * ------------ Задача
 
 # 1. Створіть функцію image _info з одним параметром типу dict
 # 2. Функція очікує словник, в якому повинно бути як мінімум два ключа:
 # • image_id
-# • назва_зображення
+# • image_title
 # 3. Функція повинна повертати строку такого виду
 # "Зображення "мій кіт" має id 5136"
 # 4. Якщо одного з цих ключів у словнику немає, функція повинна генерувати помилку TypeError
 # 5. Використовуйте функцію і коректно обробіть помилку в разі появи
+
+
+# def image_info(img):
+#     if ("image_id" not in img) or ("image_title" not in img):
+#         raise TypeError("Keys image_id and image_title must be present")
+#     return f"Image {img['image_title']} has id {img['image_id']}"
+
+
+# # print(image_info({"image_title": "Welcome", "image_id": 777}))
+# print(image_info({"image_title": "Welcome"}))
