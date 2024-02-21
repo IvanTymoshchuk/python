@@ -139,3 +139,14 @@
 #     print(image_info({"image_title": "Welcome"}))
 # except TypeError as e:
 #     print(e)
+
+
+#* ------------- Задача
+
+# 1. Створіть функцію route_info, якою передаватиметься словник.
+# 2. Якщо у словнику є ключ distance та його значення - ціле число, поверніть рядок "Distance to your"
+# destination is ‹ distance›"
+# 3. Інакше, якщо у словнику є ключі speed та time, поверніть
+# рядок "Distance to your destination is < speed * time›"
+# 4. Інакше поверніть рядок "No distance info is available"
+# 5. Викличте функцію кілька разів із різними аргументами
