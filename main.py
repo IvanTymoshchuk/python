@@ -330,3 +330,11 @@
 #     print(e)
 # # Second argument can't be 0
 # print("Continue...")
+
+# * --------- Тернарний оператор
+
+# my_img = ("1920", "1080")
+# info = (
+#     f"{my_img [0]}x{my_img [1]}" if len(my_img) == 2 else "Incorrect image formatting"
+# )
+# print(info)
