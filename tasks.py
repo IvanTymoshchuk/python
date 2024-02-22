@@ -141,12 +141,24 @@
 #     print(e)
 
 
-#* ------------- Задача
+# * ------------- Задача
 
 # 1. Створіть функцію route_info, якою передаватиметься словник.
-# 2. Якщо у словнику є ключ distance та його значення - ціле число, поверніть рядок "Distance to your"
-# destination is ‹ distance›"
+# 2. Якщо у словнику є ключ distance та його значення - ціле число, поверніть рядок "Distance to your destination is ‹ distance›"
 # 3. Інакше, якщо у словнику є ключі speed та time, поверніть
 # рядок "Distance to your destination is < speed * time›"
 # 4. Інакше поверніть рядок "No distance info is available"
 # 5. Викличте функцію кілька разів із різними аргументами
+
+
+# def route_info(route):
+#     if ("distance" in route) and (type(route["distance"]) == int):
+#         return f"Distance to your distenetion is {route['distance']}"
+#     if ("speed" in route) and ("time" in route):
+#         return f"Distance to your distenetion is {route['speed'] * route['time']}"
+#     return "No distance info is avalible"
+
+
+# print(route_info({"distance": 15}))
+# print(route_info({"speed": 20, "time": 3}))
+# print(route_info({"my_speed": 10}))
