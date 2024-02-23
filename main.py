@@ -338,3 +338,17 @@
 #     f"{my_img [0]}x{my_img [1]}" if len(my_img) == 2 else "Incorrect image formatting"
 # )
 # print(info)
+
+
+# * ----------- while
+
+# import random
+
+# random_num = random.randint(1, 5)
+# while True:
+#     num = int(input("Guess the number from 1 to 5: "))
+#     if num != random_num:
+#         print("Try again...")
+#         continue
+#     print("Congratulations!", random_num)
+#     break
