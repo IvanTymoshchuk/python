@@ -255,10 +255,10 @@
 # 2. Створіть новий словник на підставі існуючого, в якому значення всіх ключів повинні бути у верхньому регістрі
 # 3. Виводьте результуючий словник у термінал
 
-my_motobike = {"brand": "mercedes", "counry": "germany", "owner": "ivan"}
+# my_motobike = {"brand": "mercedes", "counry": "germany", "owner": "ivan"}
 
-bike = {k: v.upper() for k, v in my_motobike.items()}
-print(bike)
+# bike = {k: v.upper() for k, v in my_motobike.items()}
+# print(bike)
 
 # * --------- Скорочений for in
 # 1. Создайте список с элементами типа str
