@@ -217,11 +217,19 @@
 # print(filter_list([35, True, "abc", 10], bool))
 
 
-
-#* ---------- Задача
+# * ---------- Задача
 
 # 1. Создайте цикл, в котором нужно попросить пользователя ввести в терминале два числа
 # 2. Выведите в терминал результат деления первого числа на второе
 # 3. После этого спросите пользователя, хочет ли он продолжать yes/no
 # 4. Если ответ по, то нужно выйти из цикла
 # 5. Иначе нужно повторить всё сначала
+
+# while True:
+#     num_one = float(input("Please enter number one: "))
+#     num_two = float(input("Please enter number two: "))
+#     print(num_one / num_two)
+
+#     answer = input("do you want to continue? (yes/no): ")
+#     if answer == "no":
+#         break
