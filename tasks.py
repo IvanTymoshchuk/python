@@ -188,14 +188,23 @@
 # 3. Функція повинна повернути новий список, в якому залишаться тільки значення того типу, який був переданий у виклику функції другим аргументом 4. Функцію можна буде викликати наприклад: filter list([35, True, 'abc', 10], int) і отримати [35, 10]
 
 
-def filter_list(list_to_filter, value_type):
-    filtered_list = []
-    for el in list_to_filter:
-        if type(el) == value_type:
-            filtered_list.append(el)
-    return filtered_list
+# def filter_list(list_to_filter, value_type):
+#     filtered_list = []
+#     for el in list_to_filter:
+#         if type(el) == value_type:
+#             filtered_list.append(el)
+#     return filtered_list
+
+#! ----- use filter
 
 
-print(filter_list([35, True, "abc", 10], int))
-print(filter_list([35, True, "abc", 10], str))
-print(filter_list([35, True, "abc", 10], bool))
+# def filter_list(list_to_filter, value_type):
+#     def check_el_type(el):
+#         return isinstance(el, value_type)
+
+#     return list(filter(check_el_type, list_to_filter))
+
+
+# print(filter_list([35, True, "abc", 10], int))
+# print(filter_list([35, True, "abc", 10], str))
+# print(filter_list([35, True, "abc", 10], bool))
