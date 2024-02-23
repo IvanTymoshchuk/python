@@ -198,11 +198,18 @@
 #! ----- use filter
 
 
-def filter_list(list_to_filter, value_type):
-    def check_el_type(el):
-        return type(el) is value_type
+# def filter_list(list_to_filter, value_type):
+#     def check_el_type(el):
+#         return type(el) is value_type
 
-    return list(filter(check_el_type, list_to_filter))
+
+#     return list(filter(check_el_type, list_to_filter))
+
+#! -----  use LAMDA
+
+
+# def filter_list(list_to_filter, value_type):
+#     return list(filter(lambda el: type(el) is value_type, list_to_filter))
 
 
 # print(filter_list([35, True, "abc", 10], int))
